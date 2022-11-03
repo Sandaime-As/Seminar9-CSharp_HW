@@ -10,7 +10,7 @@ int firstNum = Convert.ToInt32(ReadLine());
 Write("Введите число n: ");
 int secondNum = Convert.ToInt32(ReadLine());
 int Ackermann = AckermannFunction(firstNum, secondNum);
-WriteLine(Ackermann);
+WriteLine($"A(m,n) = {Ackermann}");
 
 
 int AckermannFunction(int m, int n)
